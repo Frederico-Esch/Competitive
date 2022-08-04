@@ -1,0 +1,46 @@
+{
+  "New File": {
+    "prefix": ["New_file"],
+    "body": [
+        "#include<bits/stdc++.h>",
+        "typedef std::string string;",
+        "",
+        "",
+        "auto main() -> int {",
+        "\t$0",
+        "\treturn 0;",
+        "}"
+    ],
+    "description": "New File for competition"
+  },
+
+  "vector<int>": {
+      "prefix": ["vi"],
+      "body": [
+          "std::vector<int> $0;"
+      ],
+      "description": "creates a vector<int>, but gotta go fast"
+  },
+  "pair<int, int>": {
+      "prefix": ["pii"],
+      "body": [
+          "std::pair<int, int> $1 = std::make_pair($0);"
+      ],
+      "description": "creates a pair<int, int>, but gotta go fast"
+  },
+
+  "vector<type>": {
+      "prefix": ["vt"],
+      "body": [
+          "std::vector<$1> $0;"
+      ],
+      "description": "creates a vector<>, but gotta go fast"
+  },
+  "pair<type>": {
+      "prefix": ["ptt"],
+      "body": [
+          "std::pair<$1, $2> $3 = std::make_pair($0);"
+      ],
+      "description": "creates a pair<>, but gotta go fast"
+  }
+}

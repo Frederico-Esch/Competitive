@@ -1,0 +1,6 @@
+beecrowd-example
+**/**/*.out
+**/**/inputs.txt
+**/**/input.txt
+**/**/output.txt
+**/**/outputs.txt
