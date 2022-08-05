@@ -6,3 +6,4 @@ beecrowd-example
 **/**/outputs.txt
 **/**/venv
 **/**/cmake-build-debug
+**/**/.idea
