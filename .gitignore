@@ -4,3 +4,5 @@ beecrowd-example
 **/**/input.txt
 **/**/output.txt
 **/**/outputs.txt
+**/**/venv
+**/**/cmake-build-debug
