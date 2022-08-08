@@ -13,6 +13,16 @@
     ],
     "description": "New File for competition"
   },
+  "ONLINE JUDGE": {
+    "prefix": ["ONLINE_JUDGE"],
+    "body": [
+        "#ifndef ONLINE_JUDGE",
+        "\tfreopen(\"input.txt\", \"r\", stdin);",
+        "#endif",
+        ""
+    ],
+    "description": "Online Judge flag used for reading local file as stdin"
+  },
 
   "vector<int>": {
       "prefix": ["vi"],
@@ -28,6 +38,20 @@
       ],
       "description": "creates a pair<int, int>, but gotta go fast"
   },
+  "HashMap int->int": {
+      "prefix": ["hii"],
+      "body": [
+          "std::unordered_map<int, int> $0;"
+      ],
+      "description": "creates a unoredered_map<int, int>, but gotta go fast"
+  },
+  "HashMap string->int": {
+      "prefix": ["hsi"],
+      "body": [
+          "std::unordered_map<string, int> $0;"
+      ],
+      "description": "creates a unoredered_map<string, int>, but gotta go fast"
+  },
 
   "vector<type>": {
       "prefix": ["vt"],
@@ -42,5 +66,12 @@
           "std::pair<$1, $2> $3 = std::make_pair($0);"
       ],
       "description": "creates a pair<>, but gotta go fast"
+  },
+  "HashMap type->type": {
+      "prefix": ["ht"],
+      "body": [
+          "std::unordered_map<$1, $2> $0;"
+      ],
+      "description": "creates a unoredered_map<type, type>, but gotta go fast"
   }
 }

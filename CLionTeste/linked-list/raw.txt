@@ -1,0 +1,24 @@
+Arena 0:
+system bytes     =     208896
+in use bytes     =      74944
+Total (incl. mmap):
+system bytes     =   94212096
+in use bytes     =   94078144
+max mmap regions =          2
+max mmap bytes   =  228225024
+Arena 0:
+system bytes     =     208896
+in use bytes     =      79200
+Total (incl. mmap):
+system bytes     =  376221696
+in use bytes     =  376092000
+max mmap regions =          6
+max mmap bytes   =  564019200
+Arena 0:
+system bytes     =     208896
+in use bytes     =      79200
+Total (incl. mmap):
+system bytes     =  376221696
+in use bytes     =  376092000
+max mmap regions =          6
+max mmap bytes   =  564019200

@@ -1,0 +1,10 @@
+---
+UseTab: Never
+IndentWidth: '4'
+ColumnLimit: '1000000000'
+SpaceAfterLogicalNot: false
+SpaceBeforeParens: false
+AccessModifierOffset: '-4'
+NamespaceIndentation: All
+
+...
