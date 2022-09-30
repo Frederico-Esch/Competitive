@@ -30,7 +30,6 @@ int main() {
         malloc_stats();
     }
 
-
     auto size = vetor.size();
     for(; size > 0; size--){
         vetor.erase(vetor.begin());
