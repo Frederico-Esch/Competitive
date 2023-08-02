@@ -1,0 +1,14 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-std=c++17",
+            "-o",
+            "./build/lazyTree",
+            "main.cpp"
+        ],
+        "directory": "/mnt/e/DEV/Competitive/lazyTree",
+        "file": "main.cpp"
+    }
+]
